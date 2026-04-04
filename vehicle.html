@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map with Markers</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="vehicle.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ Interactive Map with Markers</h1>
+        </header>
+        
+        <div class="controls">
+            <button id="addRandomBtn">Add Random Marker</button>
+            <button id="clearBtn">Clear All Markers</button>
+            <button id="myLocationBtn">📍 My Location</button>
+        </div>
+        
+        <div id="map"></div>
+        
+        <footer>
+            <p>Click anywhere on the map to add a marker! ✨</p>
+        </footer>
+    </div>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Our Custom JavaScript -->
+    <script src="vehicle.js"></script>
+</body>
+</html>
